@@ -89,7 +89,7 @@ $recommendations = $ai_coaching->get_student_recommendations( $user_id );
 										<a href="<?php echo get_permalink( $program['ID'] ); ?>" class="coachproai-btn coachproai-btn-secondary">
 											<?php _e( 'Continue Learning', 'coachproai-lms' ); ?>
 										</a>
-										<button class="coachproai-btn coachproai-btn-primary" data-action="start-chat" data-program-id="<?php echo $program['ID']; ?>">
+                                                                                <button class="coachproai-btn coachproai-btn-primary" data-action="start-ai-chat" data-program-id="<?php echo $program['ID']; ?>">
 											<?php _e( 'Chat with AI Coach', 'coachproai-lms' ); ?>
 										</button>
 									</div>

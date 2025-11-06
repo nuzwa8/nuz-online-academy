@@ -33,7 +33,7 @@
             $(document).on('click', '[data-action="enroll-program"]', this.handleEnrollProgram.bind(this));
             
             // AI Chat
-            $(document).on('click', '[data-action="start-ai-chat"]', this.handleStartAIChat.bind(this));
+            $(document).on('click', '[data-action="start-ai-chat"], [data-action="ai-chat"]', this.handleStartAIChat.bind(this));
             $(document).on('click', '[data-action="send-message"]', this.handleSendMessage.bind(this));
             $(document).on('keypress', '[data-field="chat-message"]', this.handleChatKeyPress.bind(this));
             
